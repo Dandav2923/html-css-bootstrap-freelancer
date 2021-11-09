@@ -1,0 +1,43 @@
+:root {
+    --bg-blue: #2C3E50;
+    --bg-green: #1ABC9C;
+    --bg-white: white;
+    --bg-light-blue: #3A546D;
+    --bg-black: black;
+}
+
+.bg-blue {
+    background-color: var(--bg-blue);
+}
+
+.bg-green {
+    background-color: var(--bg-green);
+}
+
+.bg-white {
+    background-color: var(--bg-white);
+}
+
+.bg-light-blue {
+    background-color: var(--bg-light-blue);
+}
+
+.bg-black {
+    background-color: var(--bg-black);
+}
+
+.height-50px {
+    height: 50px;
+}
+
+.height-250px {
+    height: 250px;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.margin-center {
+    margin: 0 auto;
+}
