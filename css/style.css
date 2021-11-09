@@ -65,3 +65,12 @@
 .padding-container {
     padding: 1em;
 }
+
+.box-100 {
+    width: 100%;
+} 
+
+@media screen and (max-width: 575.98px) {
+    
+    
+}
