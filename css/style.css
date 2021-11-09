@@ -30,8 +30,20 @@
     height: 50px;
 }
 
+.height-150px {
+    height: 150px;
+}
+
+.height-200px {
+    height: 200px;
+}
+
 .height-250px {
     height: 250px;
+}
+
+.height-300px {
+    height: 300px;
 }
 
 .width-50 {
@@ -40,4 +52,9 @@
 
 .margin-center {
     margin: 0 auto;
+}
+
+
+.padding-conteiner {
+    padding: 2em;
 }
