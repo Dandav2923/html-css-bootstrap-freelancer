@@ -1,3 +1,4 @@
+/* variabili */
 :root {
     --bg-blue: #2C3E50;
     --bg-green: #1ABC9C;
@@ -5,7 +6,9 @@
     --bg-light-blue: #3A546D;
     --bg-black: black;
 }
+/* variabili */
 
+/* Sfondi della pagina */
 .bg-blue {
     background-color: var(--bg-blue);
 }
@@ -25,6 +28,7 @@
 .bg-black {
     background-color: var(--bg-black);
 }
+/* Sfondi della pagina */
 
 .blue-border {
     border: 1px solid blue;
@@ -32,6 +36,10 @@
 
 .color-text-white {
     color: var(--bg-white);
+}
+
+.flex {
+    display: flex;
 }
 
 .width-10 {
@@ -54,10 +62,14 @@
     width: 100%;
 } 
 
-.flex {
-    display: flex;
+.row .col-6 h1 {
+    font-size: 100%;
 }
 
-.row .col-6 h1 {
-    
+.container .row .col-6:hover a {
+    color: var(--bg-white);
+}
+
+.col-6 .list-inline .list-inline-item:hover a {
+    color: var(--bg-green);
 }
