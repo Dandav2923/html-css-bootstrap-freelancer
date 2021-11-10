@@ -30,7 +30,7 @@
 }
 /* Sfondi della pagina */
 
-
+/* colori del testo e delle hr  */
 .color-text-white {
     color: var(--bg-white);
 }
@@ -38,7 +38,9 @@
 .color-text-green {
     color: var(--bg-green);
 }
+/* colori del testo e delle hr  */
 
+/* classi generiche personali per la gestione degli elementi  */
 .flex {
     display: flex;
 }
@@ -65,26 +67,6 @@
 
 .box-100 {
     width: 100%;
-} 
-
-.row .col-6 h2 {
-    font-size: 100%;
-}
-
-.jumboimg-container img {
-    width: 50%;
-}
-
-.container .row .col-6:hover a {
-    color: var(--bg-white);
-}
-
-.col-6 .list-inline .list-inline-item:hover a {
-    color: var(--bg-green);
-}
-
-.jumbotext-container .page-separator div {
-    color: var(--bg-white);
 }
 
 .page-separator .horizontal-role {
@@ -103,7 +85,36 @@
 .horizontal-role.hr-color-blue {
     border-color: var(--bg-light-blue);
 }
+/* classi generiche personali per la gestione degli elementi  */
 
+/* gestione degli elementi dell'header  */
+.row .col-6 h2 {
+    font-size: 100%;
+}
+
+.container .row .col-6:hover a {
+    color: var(--bg-white);
+}
+
+.col-6 .list-inline .list-inline-item:hover a {
+    color: var(--bg-green);
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+/* gestione degli elementi dell'header  */
+
+/* gestione degli elementi del jumbotron  */
+.jumboimg-container img {
+    width: 20%;
+}
+/* gestione degli elementi del jumbotron  */
+
+/* gestione delgi elementi della sezione portfolio */
 .col-10 .row .col-12 img {
     width: 100%;
     border-radius: 5px;
@@ -119,29 +130,31 @@
     justify-content: center; 
     align-items: center;
     font-size: 4em;
-    transition: 2s;
     border-radius: 5px;
+    transition: 2s;
 }
 
 .col-10 .row .col-12:hover .contenitore-bottone-play  {
     display: flex;
     background-color: var(--bg-green); 
 }
+/* gestione delgi elementi della sezione portfolio */
 
-.col-2 button a:hover {
-    color: var(--bg-white);
-}
-
-
+/* gestione degli elementi della sezione about */
 .col-12 button {
     color: var(--bg-white);
     background-color: var(--bg-green);
 }
 
+.col-12 button a:hover {
+    color: var(--bg-white);
+}
+/* gestione degli elementi della sezione about */
+
+/* gestione degli elementi del footer  */
 .social  {
     border: 1px solid white;
     border-radius: 50%;
-
 }
 
 .social:hover  {
@@ -156,10 +169,4 @@
 .link-homepage:hover a {
     color: var(--bg-green);
 }
-
-#header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 999;
-}
+/* gestione degli elementi del footer  */
