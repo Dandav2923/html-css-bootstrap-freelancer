@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body id="home">
     <!-- header -->
     <header id="header" class="box-100 bg-blue color-text-white">
         <div class="container padding-container">
@@ -27,7 +27,7 @@
                 <div class="hamburger col-6 text-end d-sm-none align-self-center">
                     <i class="fas fa-bars"></i>
                 </div>
-                <div class="col-6 text-end d-none d-sm-block text-center align-self-center">
+                <div class="col-6 text-end d-none d-sm-block align-self-center">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item">
                             <a class="text-decoration-none text-uppercase color-text-white" href="#portfolio">Portfolio</a>
@@ -45,7 +45,7 @@
     <!-- header -->
 
     <!-- sezione jumbotron -->
-    <section class="box-100 bg-green text-center">
+    <section id="jumbo" class="box-100 bg-green text-center">
         <div class="container padding-container">
             <div class="row">
                 <div class="col-4 offset-4">
@@ -57,15 +57,11 @@
                             Start bootstrap
                         </h1>
                         <div class="page-separator flex justify-content-center align-items-center">
-                            <div>
-                                <hr>
-                            </div>
+                                <hr class="horizontal-role hr-color-white">
                             <div class="star color-text-white ms-3 me-3 ">
                                 <i class="fas fa-star"></i>
                             </div>
-                            <div >
-                                <hr>
-                            </div>
+                                <hr class="horizontal-role hr-color-white">
                         </div>
                         <div class="text-uppercase color-text-white">
                             graphic artist - web designer - illustrator
@@ -78,9 +74,9 @@
     <!-- sezione jumbotron -->
 
     <!-- main  -->
-    <main>
+    <main class="mt-5">
         <!-- portfolio  -->
-        <section id="portfolio" class="box-100 bg-white">
+        <section id="portfolio" class="box-100 bg-white mt-5">
             <div class="container padding-container">
                 <div class="row">
                     <div class="col-4 offset-4">
@@ -88,16 +84,12 @@
                             <h2>
                                 Portfolio
                             </h2>
-                            <div class="page-separator flex justify-content-center align-items-center">
-                                <div>
-                                    <hr>
-                                </div>
+                            <div class="page-separator flex justify-content-center align-items-center"> 
+                                    <hr class="horizontal-role hr-color-blue">
                                 <div class="star ms-3 me-3 ">
                                     <i class="fas fa-star"></i>
-                                </div>
-                                <div>
-                                    <hr>
-                                </div>
+                                </div>    
+                                    <hr class="horizontal-role hr-color-blue">
                             </div>
                         </div>
                     </div>
@@ -149,34 +141,30 @@
         <!-- portfolio  -->
 
         <!-- about -->
-        <section id="about" class="box-100 bg-green">
+        <section id="about" class="box-100 bg-green mt-5">
             <div class="container padding-container">
-                <div class="row">
-                    <div class="col-8 offset-2">
-                        <div class="row">
-                            <div class="col-4 offset-4">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <div class="row justify-content-center">
+                            <div class="col-4">
                                 <h2 class="text-uppercase color-text-white text-center">
                                     About
                                 </h2>
                             </div>
                             <div class="page-separator flex justify-content-center align-items-center">
-                                <div>
-                                    <hr>
-                                </div>
+                                    <hr class="horizontal-role hr-color-white">
                                 <div class="star color-text-white ms-3 me-3 ">
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <div>
-                                   <hr>
-                                </div>
+                                   <hr class="horizontal-role hr-color-white">
                             </div>
-                            <div class="col-6 color-text-white">
+                            <div class="col-12 col-sm-6 color-text-white">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, minus? Ullam quae maxime quaerat ea illo, non ipsam! Provident, consequuntur beatae. Aperiam, dolor fugiat! Officiis alias quo impedit. Ipsa, quis?
                             </div>
-                            <div class="col-6 color-text-white">
+                            <div class="col-12 col-sm-6 color-text-white">
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti optio iste consequatur earum. Numquam, velit distinctio illum saepe quos at ipsum voluptas. Atque sed tempore exercitationem beatae perferendis explicabo molestiae.
                             </div>
-                            <div class="col-2 margin-center mt-3">
+                            <div class="col-12 text-center mt-3">
                                 <button type="button" class="btn btn-outline-secondary">
                                     <a class="text-decoration-none color-text-white" href="#">Download</a>
                                 </button>
@@ -189,7 +177,7 @@
         <!-- about -->
 
         <!-- contact me  -->
-        <section id="contact" class="box-100 bg-white">
+        <section id="contact" class="box-100 bg-white mt-5">
             <div class="container padding-container">
                 <div class="row">
                     <div class="col-9 margin-center">
@@ -200,41 +188,32 @@
                                 </h2>
                             </div>
                             <div class="page-separator flex justify-content-center align-items-center">
-                                <div>
-                                    <hr>
-                                </div>
-                                <div class="star ms-3 me-3 ">
+                                    <hr class="horizontal-role hr-color-blue">
+                                <div class="star ms-3 me-3">
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <div>
-                                    <hr>
-                                </div>
+                                    <hr class="horizontal-role hr-color-blue">
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">
-                                    Name
-                                </label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome e cognome">
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control border-top-0 border-end-0 border-start-0" placeholder="Leave a comment here" id="floatingTextarea "></textarea>
+                                <label for="floatingTextarea">Name</label>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">
-                                    Email address
-                                </label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control border-top-0 border-end-0 border-start-0" placeholder="Leave a comment here" id="floatingTextarea "></textarea>
+                                <label for="floatingTextarea">Email Address</label>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">
-                                    Phone number
-                                </label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+391234567891">
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control border-top-0 border-end-0 border-start-0" placeholder="Leave a comment here" id="floatingTextarea "></textarea>
+                                <label for="floatingTextarea">Phone Number</label>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">
-                                    Message
-                                </label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control border-top-0 border-end-0 border-start-0" placeholder="Leave a comment here" id="floatingTextarea2"
+                                    style="height: 250px"></textarea>
+                                <label for="floatingTextarea2">Message</label>
                             </div>
-                            <div class="col-1 width-10"></div>
+                            <div class="col-12 text-start">
+                                <button type="button" class="btn btn-outline-secondary">Send</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -251,11 +230,55 @@
         <section class="box-100 bg-light-blue">
             <div class="container padding-container">
                 <div class="row">
-                    <div class="col-9 margin-center">
+                    <div class="col-11 margin-center">
                         <div class="row">
-                            <div class="col-4 bg-black blue-border"></div>
-                            <div class="col-4 bg-black blue-border"></div>
-                            <div class="col-4 bg-black blue-border"></div>
+                            <div class="col-4 padding-container text-center">
+                                <h4 class="text-uppercase color-text-white">
+                                    location
+                                </h4>
+                                <div class="color-text-white">
+                                    2215 John Daniel Drive Clark, MO
+                                </div>
+                                <div class="color-text-white">
+                                    54243
+                                </div>
+                            </div>
+                            <div class="col-4 padding-container text-center">
+                                <h4 class="text-uppercase color-text-white mb-4">
+                                    around the web
+                                </h4>
+                                <span class="d-inline-block social padding-container me-1"> 
+                                    <a class=" text-decoration-none color-text-white text-center" href="#">
+                                        <i class="fab fa-facebook-f fa-fw"></i>
+                                    </a>
+                                </span>
+                                <span class="d-inline-block social padding-container me-1">
+                                    <a class=" text-decoration-none color-text-white text-center" href="#">
+                                        <i class="fab fa-google-plus-g fa-fw"></i>
+                                    </a>
+                                </span>
+                                <span class=" d-inline-block social padding-container me-1">
+                                    <a class=" text-decoration-none color-text-white text-center" href="#">
+                                        <i class="fab fa-twitter fa-fw"></i>
+                                    </a>
+                                </span>
+                                <span class=" d-inline-block social padding-container me-1">
+                                    <a class=" text-decoration-none color-text-white text-center" href="#">
+                                        <i class="fab fa-linkedin-in fa-fw"></i>
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="col-4 color-text-white text-center padding-container">
+                                <h4 class="text-uppercase color-text-white mb-4" >
+                                    about freelancer
+                                </h4>
+                                <div class="link-homepage">
+                                    Freelance is a free to use, open source Bootstrap theme creaed by 
+                                    <a class="text-decoration-none color-text-green" href="#home">
+                                        Start Bootstrap
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -267,7 +290,11 @@
         <section class="box-100 bg-blue">
             <div class="container padding-container">
                 <div class="row">
-                    <div class="col-2 margin-center bg-black blue-border"></div>
+                    <div class="col-3 margin-center">
+                        <div class="color-text-white padding-container">
+                            Copyright Your website 2019
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
