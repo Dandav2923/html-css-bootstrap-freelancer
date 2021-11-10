@@ -66,6 +66,10 @@
     font-size: 100%;
 }
 
+.jumboimg-container img {
+    width: 50%;
+}
+
 .container .row .col-6:hover a {
     color: var(--bg-white);
 }
@@ -74,7 +78,25 @@
     color: var(--bg-green);
 }
 
-.page-separator hr {
-    width: 75px;
-    height: 20px;
+.jumbotext-container .page-separator div {
+    color: var(--bg-white);
+}
+
+.jumbotext-container .page-separator hr {
+    display: block;
+    width: 100px;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.row .col-4 .page-separator hr {
+    display: block;
+    width: 100px;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.col-10 .row .col-12 img {
+    width: 100%;
+    border-radius: 5px;
 }
